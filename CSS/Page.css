@@ -1,0 +1,34 @@
+
+.movies-container{
+    
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: grid;
+    gap: 20px;
+}
+.movies-container div{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.movies-container div img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+.movies-container div h3{
+    color: #023e8a;
+    font-size: 30px;
+    font-weight: 600;
+}
+.movies-container div p{
+    color: #03045e;
+    font-weight: 300;
+    font-size: 20px;
+}
+.movies-container div a{color: white;
+    background-color: #001F3F;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: inline-block;}
